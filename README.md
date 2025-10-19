@@ -20,18 +20,16 @@ It provides a user-friendly interface and secure database-backed transactions, r
 | **Version Control** | Git & GitHub |
 
 ---
-
 ## 🧱 Project Structure
 Virtual-ATM/
 │
-├── src/ # Source code files (Java)
-│ ├── Login.java
-│ ├── Transactions.java
-│ ├── Withdraw.java
-│ ├── Deposit.java
-│ └── ...
+├── src/                  # Source code files (Java)
+│   ├── Login.java
+│   ├── Transactions.java
+│   ├── Withdraw.java
+│   ├── Deposit.java
+│   └── ...               # Other Java files
 │
-├── .gitignore
-├── README.md
-└── Banking Management System.iml # (local IDE file - ignored)
-
+├── .gitignore            # Git ignore file
+├── README.md             # Project documentation
+└── Banking Management System.iml  # Local IDE configuration (ignored in Git)
